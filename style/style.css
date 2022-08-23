@@ -79,8 +79,7 @@ header{
 .player-section{
     
     width: 80%;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr; */
+    
 } 
 
 .player-section img{
@@ -93,10 +92,6 @@ header{
     background-color: #0D0D0D !important;
     color: white;
 }
-
-
-
-
 
 
 

@@ -1,7 +1,9 @@
 /* Common style and utilities */
 body{
     background-color: #151515 !important;
-    height: 100vh;
+    
+    margin: 0;
+    padding: 0;
 }
 
 .input{
@@ -18,6 +20,55 @@ body{
     margin: 0 auto;
     /* height: 1000px;
     background-color: #9b2121; */
+
+
+/* header section */
+header{
+    height: 480px;
+    overflow: hidden;
+    max-width: 1600px;
+    background-color: #0d0d0d;
+    margin-bottom: 100px;
+}
+.headers-1{
+    background-image: url(/images/Banner_background.png);
+    height: 481px;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: bottom left -30px;
+    display: flex;
+    align-items: flex-end;
+
+    
+}
+.headers-2-h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 76px;
+
+    color: #FF5E19;
+    text-align: center;
+}
+.headers-2-p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 30px;
+    
+}
+.headers-3{
+    height: 481px;
+    background-image: url('/images/right_banner_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100% auto;
+}
+.headers-3-img{
+  position: absolute; 
+  right: 0px;
+  bottom: 35%;
+}
+
+
 
 
 /* player section starts from here */

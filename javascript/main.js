@@ -73,7 +73,7 @@ document.getElementById("palyer-section").addEventListener('click', function(eve
 
 
 
-
+// per Player cost section 
 
 document.getElementById('calculate').addEventListener('click', function(){
     

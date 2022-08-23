@@ -15,12 +15,6 @@ body{
     width: 50%;
 }
 
-/* .container{
-    width: 90vw;
-    margin: 0 auto;
-    /* height: 1000px;
-    background-color: #9b2121; */
-
 
 /* header section */
 header{
@@ -43,10 +37,11 @@ header{
 }
 .headers-2-h1{
     font-family: 'Berkshire Swash', cursive;
-    font-size: 76px;
+    font-size: 70px;
 
     color: #FF5E19;
     text-align: center;
+    
 }
 .headers-2-p{
     text-align: center;

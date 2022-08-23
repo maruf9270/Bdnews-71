@@ -79,7 +79,10 @@ document.getElementById('calculate').addEventListener('click', function(){
     
     const perPlayerCost = document.getElementById('perplayercost').value;
     
-    if(isNaN(perPlayerCost)===false){
+    if(perPlayerCost === ""){
+        alert("Input value in the per player field");
+    }
+    else  if(isNaN(perPlayerCost)===false){
         const totalPlayer = document.querySelectorAll('#playerList li').length;
 
 
@@ -92,6 +95,7 @@ document.getElementById('calculate').addEventListener('click', function(){
         getCostField.innerText = playerCost;
 
     }
+   
     else{
         alert("Please input numaric value in the per player field");
     }
@@ -119,7 +123,12 @@ document.getElementById("totalCost").addEventListener('click', function() {
     const coachCost = document.getElementById('coachCost').value;
     const coachCostFolat = parseFloat(coachCost);
 
-    if(isNaN(coachCost) === false && isNaN(managerCost)=== false){
+    if(managerCost === '' || coachCost === ''){
+        alert("Please input value in the manager cost field and coach cost field")
+
+    }
+   
+    else if(isNaN(coachCost) === false && isNaN(managerCost)=== false){
          // Total selectiono cost
         const totalSeasonCost = totaPlayerCostFloat + managerCostFloat + coachCostFolat;
     

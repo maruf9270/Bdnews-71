@@ -144,41 +144,51 @@
             Budget and calculation section
          -->
         <div class="budget-calculation">
-            <div style="height: 900px; background-color: red; color: white;">
-                <div class="player-list" style="height: 50%; background-color: aqua;">
+            <div>
+                <div class="player-list py-5 rounded">
+                  <h4 class="text-center ">Secleted - V</h4>
+                  <hr class="player-list-hr">
                   <ol id="playerList">
                     
 
                   </ol>
                 </div>
+            </div>
 
-                <div id="claculator" class="calculator">
-                  <h1>
+            <div>
+
+            
+                <div id="claculator" class="calculator py-4">
+                  <h4 class="text-center">
                     Budget
-                  </h1>
-                  <div style="display: flex;">
-                    Per Player: <input type="number" placeholder="Taka" id="perplayercost">
+                  </h4>
+                  <hr class="player-list-hr">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span>Per Player:</span>
+                    <input type="text" placeholder="Taka" id="perplayercost" class="w-50 input">
                     
                   </div>
-                  <div>
-                    <button style="display: block;" id="calculate">Calculate</button>
+                  <div class="text-center py-3">
+                    <button class="w-75 btn btn-primary px-auto" id="calculate">Calculate</button>
                   </div>
 
-                  <div style="margin-top: 50px;">
-                    Player Expense : $<span id="playerCost">0000</span>
+                  <div class="my-3">
+                   <span class="text-muted">Player Expense:</span> $<span id="playerCost">0000</span>
                   </div>
-                  <div style="display: flex;">
-                    Managr: <input type="number" id="managerCost" placeholder="Taka">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span>Managr:</span> <input type="text" id="managerCost" class="input" placeholder="Taka">
                     
                   </div>
-                  <div style="display: flex;">
-                    Coach: <input type="number" id="coachCost" placeholder="Taka">
+                  <div class="d-flex justify-content-between align-items-center">
+                    <span>Coach:</span> <input type="text" id="coachCost" class="input my-1" placeholder="Taka">
                     
                   </div>
-                  <button id="totalCost">Calculate Total</button>
+                 <div class="text-center">
+                  <button class="w-75 btn btn-primary " id="totalCost">Calculate Total</button>
+                 </div>
 
-                  <div style="margin-top: 30px;">
-                    Total: $<span id="previouSeasonCost">0000</span>
+                  <div class="my-5 d-flex justify-content-between">
+                   <span> Total:</span> <div>$<span id="previouSeasonCost" class="text-warning">0000</span></div>
 
                   </div>
 
@@ -190,6 +200,16 @@
         </div>
     </section>
    </main>
+
+   <hr class="footer-hr" >
+   <footer>
+
+    <div>
+      <p class="text-white">
+        Copyright @ 2022 All Rights Reserved.
+      </p>
+    </div>
+   </footer>
 
 
 

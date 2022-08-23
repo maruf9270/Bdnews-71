@@ -1,0 +1,37 @@
+/* Common style and utilities */
+body{
+    background-color: #151515 !important;
+    height: 100vh;
+}
+
+
+/* .container{
+    width: 90vw;
+    margin: 0 auto;
+    /* height: 1000px;
+    background-color: #9b2121; */
+
+
+/* player section starts from here */
+ .main{
+    display: flex;
+ }
+.player-section{
+    
+    width: 80%;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr; */
+} 
+
+.player-section img{
+    width: 100%;
+}
+
+
+.budget-calculation{
+    width: 20%;
+}
+.card{
+    background-color: #0D0D0D !important;
+    color: white;
+}
